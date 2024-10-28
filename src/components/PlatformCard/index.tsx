@@ -12,13 +12,13 @@ export function PlatformCard({ platform }: PlatformCardProps) {
     <Card>
       <CardHeader>
         <div className="flex items-center gap-2">
-          <platform.icon className="w-6 h-6" />
+          <platform.icon  />
           <CardTitle>{platform.name}</CardTitle>
         </div>
         <CardDescription>{platform.description}</CardDescription>
       </CardHeader>
       <CardContent>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {platform.imageTypes.map((imageType) => (
             <ImageSizeCard key={imageType.name} imageType={imageType} />
           ))}
