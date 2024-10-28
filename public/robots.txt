@@ -1,0 +1,5 @@
+# *
+User-agent: *
+
+# Sitemaps
+Sitemap: https://socialimagesize.com/sitemap.xml
